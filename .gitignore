@@ -1,1 +1,7 @@
 internal/
+node_modules/
+cache/
+out/
+broadcast/
+.env
+.DS_Store

@@ -1,0 +1,5 @@
+timestamp,expiresAt,version,value,forecastValue,triggerValue,unit,source,metricType
+2026-03-07T08:00:00Z,2026-03-07T09:00:00Z,1,82,91,91,USD_MWh,grid-demo-v1,price
+2026-03-07T09:00:00Z,2026-03-07T10:00:00Z,2,86,97,97,USD_MWh,grid-demo-v1,price
+2026-03-07T10:00:00Z,2026-03-07T11:00:00Z,3,79,84,84,USD_MWh,grid-demo-v1,price
+2026-03-07T11:00:00Z,2026-03-07T12:00:00Z,4,93,101,101,USD_MWh,grid-demo-v1,price

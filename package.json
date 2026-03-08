@@ -1,0 +1,18 @@
+{
+  "name": "reactive-energy-oracle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reactive Network MVP for cross-chain energy data automation.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "setup:dev": "bash scripts/setup-dev-env.sh",
+    "build": "forge build",
+    "test": "forge test",
+    "clean": "forge clean",
+    "demo:payload": "node scripts/demo/replay-sample.js",
+    "demo:payload:0": "node scripts/demo/replay-sample.js 0",
+    "demo:payload:1": "node scripts/demo/replay-sample.js 1",
+    "demo:payload:2": "node scripts/demo/replay-sample.js 2"
+  }
+}
