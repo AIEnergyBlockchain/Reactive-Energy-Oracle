@@ -4,11 +4,21 @@
   "private": true,
   "description": "Reactive Network MVP for cross-chain energy data automation.",
   "license": "MIT",
+  "workspaces": [
+    "frontend"
+  ],
   "type": "commonjs",
   "scripts": {
     "setup:dev": "bash scripts/setup-dev-env.sh",
     "build": "forge build",
+    "build:frontend": "npm run build --workspace frontend",
+    "build:all": "npm run build && npm run build:frontend",
     "test": "forge test",
+    "test:frontend": "npm run test --workspace frontend",
+    "test:e2e": "npm run test:e2e --workspace frontend",
+    "test:all": "npm run test && npm run test:frontend",
+    "local:manifest": "node scripts/local-anvil/generate-manifest.js",
+    "local:deploy": "node scripts/local-anvil/deploy-local-demo.js",
     "clean": "forge clean",
     "demo:payload": "node scripts/demo/replay-sample.js",
     "demo:payload:0": "node scripts/demo/replay-sample.js 0",

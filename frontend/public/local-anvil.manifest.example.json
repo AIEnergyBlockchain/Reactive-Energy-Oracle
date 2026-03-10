@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-03-10T00:00:00Z",
+  "sourceChain": {
+    "chainId": 31337,
+    "name": "Anvil Source",
+    "rpcUrl": "http://127.0.0.1:8545",
+    "sourceFeedEmitter": "0x0000000000000000000000000000000000000000"
+  },
+  "destinationChain": {
+    "chainId": 31338,
+    "name": "Anvil Destination",
+    "rpcUrl": "http://127.0.0.1:8546",
+    "destinationActionVault": "0x0000000000000000000000000000000000000000"
+  },
+  "reactive": {
+    "subscriber": "0x0000000000000000000000000000000000000000",
+    "callbackGasLimit": 500000,
+    "threshold": 95
+  }
+}
